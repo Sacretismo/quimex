@@ -61,19 +61,5 @@
   "modelo": "Fiesta",
   "precio": 10000,
   "imagen": "matraz-600x600.jpg"
- },
- {
-  "id": 10,
-  "marca": "Ford",
-  "modelo": "Fiesta",
-  "precio": 10000,
-  "imagen": "matraz-600x600.jpg"
- },
- {
-  "id": 11,
-  "marca": "Ford",
-  "modelo": "Fiesta",
-  "precio": 10000,
-  "imagen": "matraz-600x600.jpg"
  }
 ]
