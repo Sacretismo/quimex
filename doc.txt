@@ -1,0 +1,7 @@
+npm install express
+npm install ejs
+npm install body-parser
+npm install method-override
+npm install multer
+npm install nodemon
+npm install path

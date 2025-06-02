@@ -1,0 +1,230 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+/* ------------------------------------------- */
+
+
+/* Navbar------------- */
+.navbar{
+    background-color: rgb(131, 129, 129);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+
+}
+
+.brand{
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(251, 253, 120);
+    margin-left: 16px;
+    
+}
+
+.menu-icon{
+    display: block;
+    /* margin-left: 150px; */
+    font-size: 24px;
+    cursor: pointer;
+    color: blue;
+    margin-right: 16px;
+}
+
+.nav-links{
+    display: none;
+    list-style-type: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(90, 88, 88);
+    padding: 24px;
+
+}
+
+.nav-links.show {
+    display:flex;
+}
+
+.nav-links li{
+    margin: 8px 0px;
+}
+
+.nav-links a{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* ----------------------------------------- */
+/* Maquetado y estilo en Compu (501px y superiores) */
+@media screen and (min-width: 600px) {
+    .brand{
+        justify-content: flex-start;
+    }
+
+    .menu-icon{
+        display: none;
+    }
+
+   
+
+    .nav-links{
+        display: flex;
+        flex-direction: row;
+        width:auto;
+        background-color: transparent;
+        padding: 0%;
+        position:static;
+    }
+
+    .nav-links li{
+        margin: 0px 20px;
+    }
+
+    .nav-links a{
+        color: rgb(9, 9, 9);
+        /* text-decoration: none; */
+        font-size: 20px;
+    }
+}
+/* ------------------------------------------- */
+
+/* ------------------------------------------- */
+/* Contenedor principal */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* ------------------------------------------- */
+
+/* ------------------------------------------- */
+
+
+/* -------Carrusel-------- */
+#carouselExampleIndicators {
+  display: none;
+}
+
+.carousel-item img {
+  width: 100%;
+  /*height: 400px; /* o el alto que vos quieras */
+  height: 100%;
+ 
+  object-fit: cover; /* recorta y centra la imagen si no coincide el aspecto */
+}
+
+/* Mostrar a partir de 600px */
+@media screen and (min-width: 600px) {
+  #carouselExampleIndicators {
+    display: block;
+    border: 4px solid yellow; /* opcional */
+  }
+}
+
+/* ------------------------------------------- */
+
+/* ------------------------------------------- */
+
+/* Lista de productos */
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+  width: 100%;
+}
+
+/* Tarjeta de producto */
+.producto {
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 260px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.producto img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.producto .contenido {
+  padding: 1rem;
+  text-align: center;
+}
+
+.producto h2 {
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.producto h3 {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.producto p {
+  font-weight: bold;
+  color: #2e7d32;
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ------------------------------------------- */
+footer {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  margin: 0;
+}
+
+
+/* ------------------------------------------- */
+
+  
+

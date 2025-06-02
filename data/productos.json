@@ -1,0 +1,79 @@
+[
+ {
+  "id": 1,
+  "marca": "Aro bunsen",
+  "modelo": "Fiesta",
+  "precio": 10000,
+  "imagen": "matraz-600x600.jpg"
+ },
+ {
+  "id": 2,
+  "marca": "Matraz",
+  "modelo": "Fiesta",
+  "precio": 12000,
+  "imagen": "matraz-600x600.jpg"
+ },
+ {
+  "id": 3,
+  "marca": "Pipeta",
+  "modelo": "Fiesta",
+  "precio": 15000,
+  "imagen": "matraz-600x600.jpg"
+ },
+ {
+  "id": 4,
+  "marca": "Vaso ppto",
+  "modelo": "Fiesta",
+  "precio": 10000,
+  "imagen": "matraz-600x600.jpg"
+ },
+ {
+  "id": 5,
+  "marca": "Varilla",
+  "modelo": "Fiesta",
+  "precio": 10000,
+  "imagen": "matraz-600x600.jpg"
+ },
+ {
+  "id": 6,
+  "marca": "Ford",
+  "modelo": "Fiesta",
+  "precio": 10000,
+  "imagen": "matraz-600x600.jpg"
+ },
+ {
+  "id": 7,
+  "marca": "Ford",
+  "modelo": "Fiesta",
+  "precio": 10000,
+  "imagen": "matraz-600x600.jpg"
+ },
+ {
+  "id": 8,
+  "marca": "Ford",
+  "modelo": "Fiesta",
+  "precio": 10000,
+  "imagen": "matraz-600x600.jpg"
+ },
+ {
+  "id": 9,
+  "marca": "Ford",
+  "modelo": "Fiesta",
+  "precio": 10000,
+  "imagen": "matraz-600x600.jpg"
+ },
+ {
+  "id": 10,
+  "marca": "Ford",
+  "modelo": "Fiesta",
+  "precio": 10000,
+  "imagen": "matraz-600x600.jpg"
+ },
+ {
+  "id": 11,
+  "marca": "Ford",
+  "modelo": "Fiesta",
+  "precio": 10000,
+  "imagen": "matraz-600x600.jpg"
+ }
+]
