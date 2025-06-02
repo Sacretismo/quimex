@@ -11,7 +11,7 @@ body {
   color: #333;
 }
 /* ------------------------------------------- */
-
+/* ------------------------------------------- */
 
 /* Navbar------------- */
 .navbar{
@@ -209,6 +209,63 @@ ul {
 }
 
 /* ------------------------------------------- */
+/* ------------------------------------------- */
+/* ---FORMULARIO-------------------- */
+.formulario {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.formulario label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario select,
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.formulario textarea {
+  resize: vertical;
+}
+
+.formulario input[type="submit"] {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #2b8cc4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.formulario input[type="submit"]:hover {
+  background-color: #1f6e99;
+}
+
+
+
+
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+/* -------FOOTER------------------------ */
 footer {
   background-color: #1e1e1e;
   color: #ffffff;
