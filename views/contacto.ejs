@@ -14,8 +14,9 @@
     <%-include('partials/header')%>
 
     <main>
-
-        <form  action="/user" method="POST" class="formulario">
+    
+    <form  action="/user" method="POST" class="formulario">
+    <h2>Deja tu consulta:</h2>
      <div>   
       <label for="nombre">Nombre:</label>
       <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo">
@@ -35,6 +36,15 @@
       <textarea id="consulta" name="consulta" placeholder="Escribe tu consulta aquí" rows="5" cols="30"></textarea>
 
       <input type="submit" value="Enviar">
+    </div>
+
+    <div class="info3">
+    <p>O si lo deseas, contáctanos por:<br>
+        Dirección: Mitre, 8952, CABA<br>
+        Teléfono: 9999-1234<br>
+        Correo electrónico: <a href="mailto:quimex@contacto.com">quimex@contacto.com</a><br>
+        Abrimos de lunes a viernes de 7:00 am a 7:00 pm
+    </p>
     </div>
         
     </main>

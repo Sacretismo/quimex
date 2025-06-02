@@ -7,101 +7,96 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0f2f5;
+  background-color: #C6EDFF;
   color: #333;
 }
-/* ------------------------------------------- */
-/* ------------------------------------------- */
 
-/* Navbar------------- */
-.navbar{
-    background-color: rgb(131, 129, 129);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px;
-
+/* Navbar */
+.navbar {
+  background-color: #638BB0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
 }
 
-.brand{
-    font-size: 24px;
-    font-weight: bold;
-    color:rgb(251, 253, 120);
-    margin-left: 16px;
-    
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-left: 16px;
 }
 
-.menu-icon{
-    display: block;
-    /* margin-left: 150px; */
-    font-size: 24px;
-    cursor: pointer;
-    color: blue;
-    margin-right: 16px;
+.brand a{
+  text-decoration: none;
+  color: white;
+}
+.brand a:hover {
+  color: #c6edff; /* tono celeste claro de tu paleta */
 }
 
-.nav-links{
-    display: none;
-    list-style-type: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: rgb(90, 88, 88);
-    padding: 24px;
+.menu-icon {
+  display: block;
+  font-size: 24px;
+  cursor: pointer;
+  color: #FFFFFF;
+  margin-right: 16px;
+}
 
+.nav-links {
+  display: none;
+  list-style-type: none;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: #7CA4C4;
+  padding: 24px;
 }
 
 .nav-links.show {
-    display:flex;
+  display: flex;
 }
 
-.nav-links li{
-    margin: 8px 0px;
+.nav-links li {
+  margin: 8px 0px;
 }
 
-.nav-links a{
-    color: azure;
-    text-decoration: none;
-    font-size: 20px;
+.nav-links a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
 }
 
-/* ----------------------------------------- */
-/* Maquetado y estilo en Compu (501px y superiores) */
+/* Maquetado en compu */
 @media screen and (min-width: 600px) {
-    .brand{
-        justify-content: flex-start;
-    }
+  .brand {
+    justify-content: flex-start;
+  }
 
-    .menu-icon{
-        display: none;
-    }
+  .menu-icon {
+    display: none;
+  }
 
-   
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background-color: transparent;
+    padding: 0;
+    position: static;
+  }
 
-    .nav-links{
-        display: flex;
-        flex-direction: row;
-        width:auto;
-        background-color: transparent;
-        padding: 0%;
-        position:static;
-    }
+  .nav-links li {
+    margin: 0 20px;
+  }
 
-    .nav-links li{
-        margin: 0px 20px;
-    }
-
-    .nav-links a{
-        color: rgb(9, 9, 9);
-        /* text-decoration: none; */
-        font-size: 20px;
-    }
+  .nav-links a {
+    color: #FFFFFF;
+    font-size: 20px;
+  }
 }
-/* ------------------------------------------- */
 
-/* ------------------------------------------- */
 /* Contenedor principal */
 main {
   display: flex;
@@ -111,35 +106,31 @@ main {
   padding: 2rem;
 }
 
-/* ------------------------------------------- */
-
-/* ------------------------------------------- */
-
-
-/* -------Carrusel-------- */
+/* Carrusel */
 #carouselExampleIndicators {
   display: none;
 }
 
 .carousel-item img {
   width: 100%;
-  /*height: 400px; /* o el alto que vos quieras */
   height: 100%;
- 
-  object-fit: cover; /* recorta y centra la imagen si no coincide el aspecto */
+  object-fit: cover;
 }
 
-/* Mostrar a partir de 600px */
 @media screen and (min-width: 600px) {
   #carouselExampleIndicators {
     display: block;
-    border: 4px solid yellow; /* opcional */
+    border: 4px solid #ADD5EB;
   }
 }
 
-/* ------------------------------------------- */
+h1 {
+  color: #003366; /* azul oscuro */
+}
 
-/* ------------------------------------------- */
+h2 {
+  color: #66aaff; /* azul claro */
+}
 
 /* Lista de productos */
 ul {
@@ -154,7 +145,7 @@ ul {
 
 /* Tarjeta de producto */
 .producto {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -171,6 +162,7 @@ ul {
   width: 100%;
   height: 180px;
   object-fit: cover;
+  object-fit: contain;
 }
 
 .producto .contenido {
@@ -180,7 +172,7 @@ ul {
 
 .producto h2 {
   font-size: 1.1rem;
-  color: #222;
+  color: #333;
   margin-bottom: 0.5rem;
 }
 
@@ -192,7 +184,7 @@ ul {
 
 .producto p {
   font-weight: bold;
-  color: #2e7d32;
+  color: #638BB0;
   font-size: 1rem;
 }
 
@@ -208,17 +200,14 @@ ul {
   }
 }
 
-/* ------------------------------------------- */
-/* ------------------------------------------- */
-/* ---FORMULARIO-------------------- */
+/* Formulario */
 .formulario {
   max-width: 500px;
   margin: 50px auto;
   padding: 30px;
-  background-color: #f8f8f8;
+  background-color: #FFFFFF;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  font-family: sans-serif;
 }
 
 .formulario label {
@@ -235,7 +224,7 @@ ul {
   padding: 10px;
   margin-top: 5px;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #ADD5EB;
   box-sizing: border-box;
 }
 
@@ -246,7 +235,7 @@ ul {
 .formulario input[type="submit"] {
   margin-top: 20px;
   padding: 12px;
-  background-color: #2b8cc4;
+  background-color: #7CA4C4;
   color: white;
   border: none;
   border-radius: 8px;
@@ -257,92 +246,81 @@ ul {
 }
 
 .formulario input[type="submit"]:hover {
-  background-color: #1f6e99;
+  background-color: #638BB0;
 }
 
-
-/* ------------------------------------------- */
-/* ------------------------------------------- */
-/* ---Nosotros-------------------- */
+/* Nosotros */
 .nosotros {
   padding: 40px;
   max-width: 800px;
   margin: auto;
-  font-family: Arial, sans-serif;
 }
 
 .nosotros h1 {
   text-align: center;
-  color: #2b8cc4;
-}
-/* ------------------------------------------- */
-/* ------------------------------------------- */
-/* -------FOOTER------------------------ */
-.footer{
-    background-color: rgb(62, 61, 61);
-    color: azure;
-    padding: 32px 16px;
-    text-align: center;
+  color: #638BB0;
 }
 
-.contenedor-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    margin-bottom: 16px;
+/* Footer */
+.footer {
+  background-color: #638BB0;
+  color: #FFFFFF;
+  padding: 32px 16px;
+  text-align: center;
 }
 
-.columna h3{
-    margin-bottom: 8px;
-    color: darkgoldenrod;
+.contenedor-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 16px;
 }
 
-.iconos{
-    display: flex;
-    justify-content:center;
-    gap: 16px;
-    margin-top: 8px;
+.columna h3 {
+  margin-bottom: 8px;
+  color: #FFFFFF;
 }
 
-.iconos a{
-    font-size: 24px;
-    transition: transform 0.3s ease;
+.iconos {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
 }
 
-.iconos a.facebook{color: #1877f2 ;}
-.iconos a.instagram{color: #e1306c} 
-.iconos a.whatsapp{color:#25d366}
-
-.iconos a:hover{
-    transform: scale(1.2);
-    color: beige;
+.iconos a {
+  font-size: 24px;
+  transition: transform 0.3s ease;
 }
 
-.derechos{
-    font-size: 12px;
-    margin-top: 16px;
-    color: rgb(213, 202, 202);
+.iconos a.facebook { color: #1877f2; }
+.iconos a.instagram { color: #e1306c; }
+.iconos a.whatsapp { color: #25d366; }
+
+.iconos a:hover {
+  transform: scale(1.2);
+  color: #FFFFFF;
 }
 
-/* Estilos para compu */
+.derechos {
+  font-size: 12px;
+  margin-top: 16px;
+  color: #FFFFFF;
+}
+
+/* Footer en compu */
 @media (min-width: 501px) {
-    .contenedor-footer{
-        flex-direction: row;
-        justify-content:space-around;
-        padding: 0 50px;
-        align-items: center;
+  .contenedor-footer {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 50px;
+    align-items: center;
+  }
 
-    }
-
-    .derechos{
-        font-size: 10px;
-        color: azure;
-    }
+  .derechos {
+    font-size: 10px;
+    color: #FFFFFF;
+  }
 }
-
-
-/* ------------------------------------------- */
-
-  
 

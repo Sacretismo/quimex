@@ -26,10 +26,10 @@
             <img src="../images/destacada-1920x640_e0cacc58-face-4df6-bf36-8ee4d041e477_1920x.webp" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="../images/material-de-laboratorio.jpg" class="d-block w-100" alt="...">
+            <img src="../images/destacada-1920x640_e0cacc58-face-4df6-bf36-8ee4d041e477_1920x.webp" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="../images/materiales-e-instrumentos-laboratorio-quimico.jpg" class="d-block w-100" alt="...">
+            <img src="../images/destacada-1920x640_e0cacc58-face-4df6-bf36-8ee4d041e477_1920x.webp" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -41,6 +41,53 @@
             <span class="visually-hidden">Next</span>
         </button>
         </div>    
+        <h1>
+            ¿Quienes somos? <br />
+        </h1>
+        <h2>
+            Quimex es una empresa especializada en la comercialización de materiales y equipos para laboratorios científicos e industriales. Ofrece una amplia variedad de productos de alta calidad, que incluyen reactivos, instrumentos de medición, vidrio de laboratorio y consumibles, diseñados para satisfacer las necesidades de laboratorios de investigación, educación y producción. Comprometida con la excelencia y el servicio al cliente, Quimex brinda soluciones confiables y asesoramiento técnico para garantizar el correcto funcionamiento y seguridad en los procesos de laboratorio.
+
+        </h2>
+
+        <p class="secciones">
+        ¡Explora nuestro servicios!
+        </p>
+
+        <ul class="cards">
+            <li class="producto">
+                <img src="../images/alquiler.jpg" alt="Página 1">
+                <div class="contenido">
+                    <h2>Alquiler</h2>
+                </div>
+            </li>
+            <li class="producto">
+                <img src="../images/capacitaciones.jpg" alt="Página 2">
+                <div class="contenido">
+                    <h2>Capacitaciones</h2>
+                </div>
+            </li>
+            <li class="producto">
+                <img src="../images/envios.jpg" alt="Página 3">
+                <div class="contenido">
+                    <h2>Envíos</h2>
+                </div>
+            </li>
+            <li class="producto">
+                <img src="../images/venta.png" alt="Página 4">
+                <div class="contenido">
+                    <h2>Venta</h2>
+                </div>
+            </li>
+            <li class="producto">
+                <img src="../images/mantenimiento.jpg" alt="Página 5">
+                <div class="contenido">
+                    <h2>Mantenimiento</h2>
+                </div>
+            </li>
+        </ul>
+
+
+        <h2>Ofertas imperdibles</h2>
       
         <ul>            
             <% productos.forEach(producto => { %>
@@ -48,7 +95,7 @@
                 <img src="/images/<%= producto.imagen %>" alt="Imagen de <%= producto.marca %>">
                 <div class="contenido">
                     <h2>Marca: <%= producto.marca %></h2>
-                    <h3>Modelo: <%= producto.modelo %></h3>
+                    <h3>Titulo: <%= producto.modelo %></h3>
                     <p>Precio: $<%= producto.precio %></p>
                     <a href="/edit/<%=producto.id%>">Editar</a>
                      <a href="/delete/<%=producto.id%>?_method=DELETE">Eliminar</a>

@@ -1,64 +1,64 @@
 [
  {
   "id": 1,
-  "marca": "Aro bunsen",
-  "modelo": "Fiesta",
+  "marca": "Lumen Glass",
+  "modelo": "Aro bunsen",
   "precio": 10000,
   "imagen": "matraz-600x600.jpg"
  },
  {
   "id": 2,
-  "marca": "Matraz",
-  "modelo": "Fiesta",
+  "marca": "Lumen Glass",
+  "modelo": "Pipeta",
   "precio": 12000,
   "imagen": "matraz-600x600.jpg"
  },
  {
   "id": 3,
-  "marca": "Pipeta",
-  "modelo": "Fiesta",
+  "marca": "Lumen Glass",
+  "modelo": "Matraz",
   "precio": 15000,
   "imagen": "matraz-600x600.jpg"
  },
  {
   "id": 4,
-  "marca": "Vaso ppto",
-  "modelo": "Fiesta",
+  "marca": "Lumen Glass",
+  "modelo": "Termometro",
   "precio": 10000,
   "imagen": "matraz-600x600.jpg"
  },
  {
   "id": 5,
-  "marca": "Varilla",
-  "modelo": "Fiesta",
+  "marca": "Lumen Glass",
+  "modelo": "varilla",
   "precio": 10000,
   "imagen": "matraz-600x600.jpg"
  },
  {
   "id": 6,
-  "marca": "Ford",
-  "modelo": "Fiesta",
+  "marca": "Lumen Glass",
+  "modelo": "balanza",
   "precio": 10000,
   "imagen": "matraz-600x600.jpg"
  },
  {
   "id": 7,
-  "marca": "Ford",
-  "modelo": "Fiesta",
+  "marca": "Lumen Glass",
+  "modelo": "Probeta",
   "precio": 10000,
   "imagen": "matraz-600x600.jpg"
  },
  {
   "id": 8,
-  "marca": "Ford",
-  "modelo": "Fiesta",
+  "marca": "Lumen Glass",
+  "modelo": "Pipeta",
   "precio": 10000,
   "imagen": "matraz-600x600.jpg"
  },
  {
   "id": 9,
-  "marca": "Ford",
-  "modelo": "Fiesta",
+  "marca": "Lumen Glass",
+  "modelo": "Vaso ppdo",
   "precio": 10000,
   "imagen": "matraz-600x600.jpg"
  }
